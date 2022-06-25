@@ -1,0 +1,18 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./wall.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.clock{
+    text-align: center;
+    top: 10rem;
+    position: absolute;
+    font-size: 10rem;
+    opacity: .5;
+    margin: auto;
+}
+
