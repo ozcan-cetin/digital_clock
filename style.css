@@ -1,18 +1,22 @@
 .container{
-    width: 100vw;
+    min-width: 300px;
     height: 100vh;
     background-image: url(./wall.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clock{
-    text-align: center;
-    top: 10rem;
-    position: absolute;
-    font-size: 10rem;
+    font-size: 8rem;
     opacity: .5;
-    margin: auto;
+}
+
+@media screen and (max-width:500px) {
+    .clock{
+        font-size: 3rem;
+    }
 }
 
