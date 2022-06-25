@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url("./digital-7.regular.ttf") format('truetype');
+}
+
 .container{
     min-width: 300px;
     height: 100vh;
@@ -12,6 +17,7 @@
 .clock{
     font-size: 8rem;
     opacity: .5;
+    font-family: 'MyWebFont';
 }
 
 @media screen and (max-width:500px) {
